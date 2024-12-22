@@ -1,0 +1,374 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9; /* Light gray background for better contrast */
+    color: #212529;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+/* Header Section */
+header {
+    background: linear-gradient(135deg, #007bff, #00c6ff); /* Gradient for a modern look */
+    color: white;
+    text-align: center;
+    padding: 70px 20px; /* Reduced padding */
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); /* More subtle clip-path */
+    position: relative;
+}
+
+header .profile-photo {
+    width: 160px; /* Reduced width */
+    height: 160px; /* Reduced height */
+    border-radius: 50%;
+    border: 6px solid white;
+    margin-bottom: 20px; /* Adjusted space below photo */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Slightly smaller shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+}
+
+header .profile-photo:hover {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4); /* Adjusted shadow on hover */
+}
+
+header h1 {
+    font-size: 3rem; /* Increased font size */
+    margin-bottom: 12px; /* Adjusted spacing below the name */
+    font-weight: bold;
+    text-transform: uppercase; /* Uppercase for a bold look */
+    letter-spacing: 1.8px; /* Adjusted letter spacing */
+}
+
+header p {
+    font-size: 1.2rem; /* Increased font size */
+    font-style: italic;
+    font-weight: 300;
+    color: #f8f9fa; /* Light color for contrast */
+}
+
+/* Navigation */
+nav {
+    background: #343a40;
+    padding: 12px 0; /* Adjusted padding */
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 18px; /* Adjusted margin */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 0.9rem; /* Reduced font size */
+    padding: 5px 10px; /* Adjusted padding */
+    border-radius: 4px;
+    background: #495057; /* Soft background color */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #007bff;
+    transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
+/* Sections */
+section {
+    margin: 40px auto;
+    max-width: 1000px;
+    background: white;
+    padding: 25px; /* Reduced padding */
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Slightly smaller shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-5px); /* Slight lift effect on hover */
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15); /* Adjusted shadow on hover */
+}
+
+.section-light {
+    background: #ffffff;
+}
+
+.section-dark {
+    background: #f8f9fa;
+}
+
+h2 {
+    font-size: 1.6rem; /* Reduced heading size */
+    margin-bottom: 18px;
+    color: #007bff;
+    text-transform: uppercase;
+    border-bottom: 3px solid #007bff; /* Adjusted border size */
+    display: inline-block;
+    padding-bottom: 6px; /* Adjusted padding */
+    font-weight: bold;
+    letter-spacing: 0.9px; /* Adjusted letter spacing */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 8px; /* Adjusted margin */
+    font-size: 0.9rem; /* Reduced font size */
+}
+
+/* Links */
+a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+a:hover {
+    color: #0056b3;
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+/* Footer */
+footer {
+    background: #343a40;
+    color: white;
+    text-align: center;
+    padding: 12px 0; /* Adjusted padding */
+    margin-top: 30px; /* More space above the footer */
+}
+
+footer p {
+    margin: 0;/* General Styles */
+    body {
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f9; /* Light gray background for better contrast */
+        color: #212529;
+        line-height: 1.6;
+    }
+    
+    h1, h2, h3 {
+        margin: 0;
+    }
+    
+    /* Header Section */
+    header {
+        background: linear-gradient(135deg, #007bff, #00c6ff); /* Gradient for a modern look */
+        color: white;
+        text-align: center;
+        padding: 80px 20px; /* Increased padding for a larger header */
+        clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); /* More subtle clip-path */
+        position: relative;
+    }
+    
+    header .profile-photo {
+        width: 1000px; /* Increased width */
+        height: 1000px; /* Increased height */
+        border-radius: 50%;
+        border: 6px solid white;
+        margin-bottom: 30px; /* Added more space below photo */
+        box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3); /* Larger shadow for emphasis */
+        transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+    }
+    
+    header .profile-photo:hover {
+        transform: scale(1.1); /* Slight zoom effect on hover */
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4); /* Increased shadow on hover */
+    }
+    
+    header h1 {
+        font-size: 3.4rem; /* Adjusted font size to match the larger photo */
+        margin-bottom: 15px; /* Slightly more spacing below the name */
+        font-weight: bold;
+        text-transform: uppercase; /* Uppercase for a bold look */
+        letter-spacing: 2px; /* Adds spacing between letters for a modern touch */
+    }
+    
+    header p {
+        font-size: 1.4rem; /* Slightly larger font size */
+        font-style: italic;
+        font-weight: 300;
+        color: #f8f9fa; /* Light color for contrast */
+    }
+    
+    /* Navigation */
+    nav {
+        background: #343a40;
+        padding: 20px 0;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    }
+    
+    nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+    
+    nav ul li {
+        margin: 0 25px;
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 1.2rem; /* Slightly larger font size */
+        padding: 8px 15px;
+        border-radius: 4px;
+        background: #495057; /* Soft background color */
+        transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+    
+    nav ul li a:hover {
+        background-color: #007bff;
+        transform: scale(1.1); /* Slight zoom effect on hover */
+    }
+    
+    /* Sections */
+    section {
+        margin: 40px auto;
+        max-width: 1000px;
+        background: white;
+        padding: 40px;
+        border-radius: 12px;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1); /* Larger shadow */
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    
+    section:hover {
+        transform: translateY(-5px); /* Slight lift effect on hover */
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+    }
+    
+    .section-light {
+        background: #ffffff;
+    }
+    
+    .section-dark {
+        background: #f8f9fa;
+    }
+    
+    h2 {
+        font-size: 1.9rem; /* Slightly larger heading */
+        margin-bottom: 20px;
+        color: #007bff;
+        text-transform: uppercase;
+        border-bottom: 4px solid #007bff;
+        display: inline-block;
+        padding-bottom: 8px;
+        font-weight: bold;
+        letter-spacing: 1px; /* Added letter spacing */
+    }
+    
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    ul li {
+        margin-bottom: 12px;
+        font-size: 1.1rem;
+    }
+    
+    /* Links */
+    a {
+        color: #007bff;
+        text-decoration: none;
+        transition: color 0.3s ease, transform 0.3s ease;
+    }
+    
+    a:hover {
+        color: #0056b3;
+        transform: scale(1.05); /* Slight zoom effect on hover */
+    }
+    
+    /* Footer */
+    footer {
+        background: #343a40;
+        color: white;
+        text-align: center;
+        padding: 20px 0;
+        margin-top: 30px; /* More space above the footer */
+    }
+    
+    footer p {
+        margin: 0;
+        font-size: 0.95rem;
+        letter-spacing: 1px; /* Added letter spacing */
+    }
+    
+    /* Responsive Design */
+    @media (max-width: 768px) {
+        header .profile-photo {
+            width: 250px; /* Adjusted for smaller screens */
+            height: 250px;
+        }
+    
+        header h1 {
+            font-size: 2.4rem; /* Adjusted font size */
+        }
+    
+        nav ul {
+            flex-direction: column;
+        }
+    
+        nav ul li {
+            margin: 10px 0;
+        }
+    
+        section {
+            padding: 25px;
+        }
+    }
+    
+    font-size: 0.85rem; /* Reduced font size */
+    letter-spacing: 0.9px; /* Adjusted letter spacing */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header .profile-photo {
+        width: 180px; /* Adjusted for smaller screens */
+        height: 180px;
+    }
+
+    header h1 {
+        font-size: 2.5rem; /* Adjusted font size */
+    }
+
+    header p {
+        font-size: 1rem; /* Adjusted font size */
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 7px 0; /* Adjusted margin */
+    }
+
+    section {
+        padding: 18px; /* Adjusted padding */
+    }
+}
